@@ -6,6 +6,11 @@ function logDriverNames(driver){
   })
 }
 
-function logDriversByHometown(driver){
- let htArray= driver.filter()
+function logDriversByHometown(driver,homeTown){
+ let htArray= driver.filter(d){
+   return d.hometown === homeTown
+ }
+ htArray.forEach(function(d){
+   return console.log(d.name)
+ })
 }
