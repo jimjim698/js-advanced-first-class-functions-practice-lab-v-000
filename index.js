@@ -35,15 +35,7 @@ function totalRevenue(drivers){
   return totalPrice
 }
 
-const getTotalAmountForProducts = function (products) {
-  let totalPrice = 0;
- 
-  products.forEach(function (product) {
-    totalPrice += product.price;
-  });
- 
-  return totalPrice;
-};
+
 
 
 
