@@ -37,7 +37,9 @@ function totalRevenue(drivers){
 
 
 
-function averageRevenue(){
+function averageRevenue(drivers){
+  let total = totalRevenue(drivers)
+  return total/drivers.length 
   
 }
 
