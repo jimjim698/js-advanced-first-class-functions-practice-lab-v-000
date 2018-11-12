@@ -27,7 +27,9 @@ function driversByName(drivers){
   })
 }
 
-function 
+function totalRevenue(drivers){
+  return drivers.
+}
 
 
 
