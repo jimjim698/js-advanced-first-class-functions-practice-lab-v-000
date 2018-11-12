@@ -37,7 +37,9 @@ function totalRevenue(drivers){
 
 
 
-
+function averageRevenue(){
+  
+}
 
 
 
