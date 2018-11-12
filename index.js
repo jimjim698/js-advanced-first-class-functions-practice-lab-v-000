@@ -6,6 +6,6 @@ function logDriverNames(driver){
   })
 }
 
-function logDriversByHometown(){
-  
+function logDriversByHometown(driver){
+ let htArray= driver.filter()
 }
