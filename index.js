@@ -5,3 +5,7 @@ function logDriverNames(driver){
     return console.log(d.name)
   })
 }
+
+function logDriversByHometown(){
+  
+}
